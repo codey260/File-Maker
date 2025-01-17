@@ -26,12 +26,15 @@ Enter Your Mode write(w), append(a), read(r), create(x): (Here You Write The Mod
 
 ## Explaining Every Single Mode In The Code
 1. The Write Mode
+
 When You Chose The Write Mode You Just Have To Enter The Path And The File Name And It Will Be Created Then Type In The Text That You Want.
 
 2. The Read Mode
+   
 When You Chose The Read Mode You Just Have To Enter The Path And The File Name And It Will Be Read And Will Be In The Terminal.
 
 3. Append Mode
+
 When You Chose The Append Mode You Just Have To Enter The Path And The File Name And It Will Be Created Then Type In The Text That You Want.
 
 4. Create Mode
@@ -39,11 +42,11 @@ When You Chose The Create Mode You Just Have To Enter The Path And The File Name
 
 ## Why Did I Made This Project
 
-A. Of All I Made This Project To Test My Abilities In Python And File Handling.
+A. First Of All I Made This Project To Test My Abilities In Python And File Handling.
 
 B. I Made It Just For Fun.
 
 
 # Q&A
 
-No Questions And Answers Here...
+Nothing Here....
