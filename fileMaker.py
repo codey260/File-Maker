@@ -1,7 +1,7 @@
 # Declaring Variables
 path = input("Enter Your Path: ")  # Path Input From User
 filename = input("Enter Your File Name: ")  # File Name Input From User
-mode = input("Enter Your Mode write(w), append(a), read(r), create(x): ").lower(
+mode = input("Enter Your Mode write(w), append(a), read(r): ").lower(
 ).strip()  # Mode Input From User
 myFile = open(f"{path}\\{filename}", f"{mode}")  # File Variable
 
