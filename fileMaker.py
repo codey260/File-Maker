@@ -1,65 +1,28 @@
-# Declaring Variables
-path = input("Enter Your Path: ")  # Path Input From User
-filename = input("Enter Your File Name: ")  # File Name Input From User
-mode = input("Enter Your Mode write(w), append(a), read(r): ").lower(
-).strip()  # Mode Input From User
-myFile = open(f"{path}\\{filename}", f"{mode}")  # File Variable
+import os
 
-# Functions
+path = os.path.dirname(os.path.abspath(__file__))
+filename = input("Enter Your File Name: ").strip()
+mode = input("Enter Your Mode write(w), append(a), read(r): ").lower().strip()
 
-# Write Function
-
-
-def write():
-
-    print("What Do You Want To Write In Your File: ")
-    userInput = input("Enter Here: ")
-
-    myFile.write(userInput)
-    print("Wrote In The File Succesfully")
-
-# Read Function
-
-
-def read():
-
-    print("Reading File.......")
-    print(myFile.read())
-
-    print("File Read Succesfully")
-
-# Append Function
-
-
-def append():
-
-    print("What Do You Want To Append In Your File: ")
-    userInput = input("Enter Here: ")
-
-    myFile.write(userInput)
-
-
-# If Conditions
-
-
-# If Write Mode Is Selected
-if mode == "w" or mode == "write":
-
-    write()
-
-# If Read Mode Is Selected
-elif mode == "r" or mode == "read":
-
-    read()
-
-# If Append Mode Is Selected
-elif mode == "a" or mode == "append":
-
-    append()
-
-# If None Of These Modes Are Chosed
+if mode in ("w", "write"):
+    with open(f"{path}\\{filename}", "w") as file:
+        print("What Do You Want To Write In Your File: ")
+        userInput = input("Enter Here: ")
+        file.write(userInput)
+        print("Wrote In The File Succesfully.")
+elif mode in ("r", "read"):
+    try:
+        with open(f"{path}\\{filename}", "r") as file:
+            print(file.read())
+            print("File Read Succesfully")
+    except FileNotFoundError:
+        print("File not found.")
+elif mode in ("a", "append"):
+    with open(f"{path}\\{filename}", "a") as file:
+        print("What Do You Want To Append In Your File: ")
+        userInput = input("Enter Here: ")
+        file.write(userInput)
+        print("Appended To The File Succesfully.")
 else:
-
     print(f"Enter A Valid Mode Not This {mode}")
-
 input("Press Enter To Exit: ")
