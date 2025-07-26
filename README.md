@@ -116,14 +116,9 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## 💡 Author
-**Youcef Shaaban**
+**CodeY**
 
----
-## 💥 Note:
-Main Code Made By **Youcef Shaaban**
-Imporoved Code By **Copilot**
-
-Developed by [Youcef Shaaban](https://github.com/youcefshaaban)
+Developed by [CodeY](https://github.com/codey260)
 
 ---
 
