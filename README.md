@@ -51,6 +51,7 @@ Python provides flexible modes for file handling. **File Maker** supports the fo
 | Read     | `'r'`  | Opens the file for **reading only**. The file must exist. The file pointer is placed at the beginning of the file. |
 | Write    | `'w'`  | Opens the file for **writing only**. If the file exists, its contents are **overwritten**. If it does not exist, a new file is created. |
 | Append   | `'a'`  | Opens the file for **appending**. New data will be written at the end of the file. If the file does not exist, it creates a new one. |
+| Rename   | `'cn'` | Renames the file. |
 
 ### Detailed Explanation
 
@@ -75,6 +76,8 @@ Python provides flexible modes for file handling. **File Maker** supports the fo
     with open('example.txt', 'w') as file:
         file.write("Hello, World!")
     ```
+#### 4. Rename (`'cn'`)
+ - **Purpose**: Rename the file.
 
 #### 3. Append Mode (`'a'`)
 - **Purpose**: To **add** data to the end of the file without removing existing content.
