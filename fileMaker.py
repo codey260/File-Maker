@@ -41,4 +41,4 @@ elif mode in ("cn", "rename", "change name"):
 else:
     print(f" Invalid mode: {mode}")
 
-input("🔚 Press Enter To Exit...")
+input(" Press Enter To Exit...")
