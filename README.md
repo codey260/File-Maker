@@ -122,4 +122,10 @@ Developed by [CodeY](https://github.com/codey260)
 
 ---
 
+## 🤝 Contributers
+
+Special Thanks to [https://github.com/pyroid-chess](pyroid-chess) for improving code and adding a rename option
+
+---
+
 _Professional. Reliable. Cross-Platform. That's File Maker._
