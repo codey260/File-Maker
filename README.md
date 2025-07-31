@@ -124,7 +124,7 @@ Developed by [CodeY](https://github.com/codey260)
 
 ## 🤝 Contributers
 
-Special Thanks to [https://github.com/pyroid-chess](pyroid-chess) for improving code and adding a rename option
+Special Thanks to [pyroid-chess](https://github.com/pyroid-chess) for improving code and adding a rename option
 
 ---
 
